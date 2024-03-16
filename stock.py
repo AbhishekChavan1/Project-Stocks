@@ -109,4 +109,4 @@ prediction = scaler.inverse_transform(np.array(future_prediction).reshape(-1, 1)
 
 print("Future prices: ")
 for i, price in enumerate(prediction):
- print("Día {}: {:.2f}".format(i+1, price[0]))
+ print("Day {}: {:.2f}".format(i+1, price[0]))
