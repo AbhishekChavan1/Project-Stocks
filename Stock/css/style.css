@@ -1,0 +1,45 @@
+/* header top css here  */
+.heading-homepage {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.about-system-header {
+  font-size: 2rem;
+}
+
+.news-letter {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card-trends {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  min-height: 33rem;
+}
+
+.card-news {
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.card-trends {
+  overflow: hidden;
+}
+
+.card-trends .card-img-top {
+  transition: transform 0.5s;
+}
+
+.card-trends .card-img-top:hover {
+  transform: scale(1.1);
+}
+
+/* footer section starts here  */
+.main-footer {
+  background-color: #1b1a1a;
+}
+.text-body {
+  color: #fff !important;
+  text-decoration: none;
+}
